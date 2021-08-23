@@ -1,0 +1,26 @@
+body {
+    background-color: goldenrod;
+}
+
+.container-1 {
+    border: 1px solid black;
+    background-color: green;
+    text-align: center;
+    justify-content: center;
+}
+
+.flex-box-container-1 {
+    display: flex;  
+    border: 2px solid black;
+    padding: 15px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.flex-box-container-1 div {
+    display: flex;
+    padding: 10px;
+    border: 1px solid black;
+    align-items: center;
+}
